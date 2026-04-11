@@ -1,7 +1,7 @@
 import streamlit as st
 
 # --- PAGE CONFIG ---
-st.set_page_config(page_title="Passion Empire", page_icon="👑", layout="wide")
+st.set_page_config(page_title="Passion", page_icon="👑", layout="wide")
 
 # --- DARK THEME & LARGE TITLE CSS ---
 st.markdown("""
@@ -69,8 +69,8 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # --- CENTERED MEGA TITLE ---
-st.markdown('<h1 class="mega-title">PASSION EMPIRE</h1>', unsafe_allow_html=True)
-st.markdown('<p class="mega-subtitle">THE BLUEPRINT FOR SUCCESS</p>', unsafe_allow_html=True)
+st.markdown('<h1 class="mega-title">PASSION</h1>', unsafe_allow_html=True)
+st.markdown('<p class="mega-subtitle">Empire</p>', unsafe_allow_html=True)
 
 st.divider()
 
