@@ -3,83 +3,98 @@ import streamlit as st
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="Passion Empire", page_icon="👑", layout="wide")
 
-# --- DARK THEME CSS ---
+# --- DARK THEME & LARGE TITLE CSS ---
 st.markdown("""
     <style>
-    /* Main background and text colors */
+    /* Main background */
     .stApp {
         background-color: #000000;
         color: #FFFFFF;
     }
     
+    /* THE HUGE CENTERED TITLE */
+    .mega-title {
+        font-size: 80px !important;
+        font-weight: 800;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        margin-top: -50px;
+        margin-bottom: 10px;
+        background: -webkit-linear-gradient(#eee, #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    /* CENTERED SUBHEADER */
+    .mega-subtitle {
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 2px;
+        opacity: 0.7;
+        margin-bottom: 50px;
+    }
+
     /* Style the cards/slots */
     div[data-testid="column"] {
         background-color: #111111;
-        padding: 20px;
+        padding: 25px;
         border-radius: 15px;
-        border: 1px solid #333333;
+        border: 1px solid #222222;
+        transition: transform 0.3s;
     }
-
-    /* Titles and Subheaders */
-    h1, h2, h3, p {
-        color: #FFFFFF !important;
+    
+    div[data-testid="column"]:hover {
+        transform: translateY(-5px);
+        border: 1px solid #D4AF37;
     }
 
     /* Button Styling */
     .stButton>button {
         width: 100%;
-        border-radius: 8px;
+        border-radius: 5px;
         background-color: #FFFFFF;
         color: #000000;
         font-weight: bold;
         border: none;
-        transition: 0.3s;
+        height: 45px;
     }
     
     .stButton>button:hover {
-        background-color: #D4AF37; /* Gold hover effect */
+        background-color: #D4AF37;
         color: #000000;
-    }
-
-    /* Divider color */
-    hr {
-        border-top: 1px solid #333333;
+        border: none;
     }
     </style>
     """, unsafe_allow_html=True)
 
-# --- HEADER ---
-st.title("👑 PASSION EMPIRE")
-st.markdown("<p style='font-size: 20px; opacity: 0.8;'>Command your destiny. Build your legacy.</p>", unsafe_allow_html=True)
+# --- CENTERED MEGA TITLE ---
+st.markdown('<h1 class="mega-title">PASSION EMPIRE</h1>', unsafe_allow_html=True)
+st.markdown('<p class="mega-subtitle">THE BLUEPRINT FOR SUCCESS</p>', unsafe_allow_html=True)
+
 st.divider()
 
 # --- CONTENT SLOTS ---
 col1, col2, col3 = st.columns(3, gap="large")
 
 with col1:
-    # Slot 1
     st.image("https://via.placeholder.com/400x300/222222/FFFFFF?text=Empire+Visuals", use_container_width=True)
-    st.markdown("### The Aesthetic")
+    st.markdown("### DESIGN")
     st.write("Visualizing the empire through high-end design and dark mode elegance.")
-    if st.button("Enter Vault"):
-        st.balloons()
+    st.button("Enter Vault", key="btn1")
 
 with col2:
-    # Slot 2
     st.image("https://via.placeholder.com/400x300/222222/FFFFFF?text=Core+Systems", use_container_width=True)
-    st.markdown("### The Engine")
+    st.markdown("### CODE")
     st.write("The technical backbone and code driving the passion forward.")
-    if st.button("View Source"):
-        st.snow()
+    st.button("View Source", key="btn2")
 
 with col3:
-    # Slot 3
     st.image("https://via.placeholder.com/400x300/222222/FFFFFF?text=Global+Reach", use_container_width=True)
-    st.markdown("### The Expansion")
+    st.markdown("### STRATEGY")
     st.write("Strategy for scaling the empire and reaching new territories.")
-    if st.button("Launch Plan"):
-        st.toast("Expansion initialized...")
+    st.button("Launch Plan", key="btn3")
 
 # --- FOOTER ---
 st.divider()
-st.caption("EST. 2026 | POWERED BY PASSION")
+st.markdown("<div style='text-align: center; opacity: 0.5;'>EST. 2026 | BUILT ON PRIDE</div>", unsafe_allow_html=True)
