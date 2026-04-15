@@ -79,7 +79,7 @@ col1, col2, col3 = st.columns(3, gap="large")
 
 with col1:
     st.image("https://via.placeholder.com/400x300/222222/FFFFFF?text=Empire+Visuals", use_container_width=True)
-    st.markdown("### Mr.Bunny AI")
+    st.markdown("### MrBunny AI")
     st.write("Mr Bunny helps us steps into this new age of artificial intelligence by transforming the way we interact with technology thanks to its advanced capabilities.")
     st.button("Enter Vault", key="btn1")
 
@@ -91,7 +91,7 @@ with col2:
 
 with col3:
     st.image("https://via.placeholder.com/400x300/222222/FFFFFF?text=Global+Reach", use_container_width=True)
-    st.markdown("### SIEGE empire")
+    st.markdown("### SIEGE EMPIRE CLOTHING")
     st.write("Smooth and seamless expansion of the empire's global reach into the clothing business.                     [co founded by Ethan morris]                   .")
     st.button("Launch Plan", key="btn3")
 
