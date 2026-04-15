@@ -11,7 +11,7 @@ st.markdown("""
         background-color: #000000;
         color: #FFFFFF;
     }
-    
+   
     /* THE HUGE CENTERED TITLE */
     .mega-title {
         font-size: 80px !important;
@@ -43,7 +43,7 @@ st.markdown("""
         border: 1px solid #222222;
         transition: transform 0.3s;
     }
-    
+   
     div[data-testid="column"]:hover {
         transform: translateY(-5px);
         border: 1px solid #D4AF37;
@@ -59,7 +59,7 @@ st.markdown("""
         border: none;
         height: 45px;
     }
-    
+   
     .stButton>button:hover {
         background-color: #D4AF37;
         color: #000000;
@@ -80,19 +80,19 @@ col1, col2, col3 = st.columns(3, gap="large")
 with col1:
     st.image("https://via.placeholder.com/400x300/222222/FFFFFF?text=Empire+Visuals", use_container_width=True)
     st.markdown("### MrBunny AI")
-    st.write("Visualizing the empire through high-end design and dark mode elegance.")
+    st.write("Mr Bunny helps us steps into this new age of artificial intelligence by transforming the way we interact with technology thanks to its advanced capabilities.")
     st.button("Enter Vault", key="btn1")
 
 with col2:
     st.image("https://via.placeholder.com/400x300/222222/FFFFFF?text=Core+Systems", use_container_width=True)
     st.markdown("### PASSION X")
-    st.write("The technical backbone and code driving the passion forward.")
+    st.write("The Beautiful Photography And Editing Studio Of The Passion Empire.")
     st.button("View Source", key="btn2")
 
 with col3:
     st.image("https://via.placeholder.com/400x300/222222/FFFFFF?text=Global+Reach", use_container_width=True)
-    st.markdown("### SIEGE EMPIRE")
-    st.write("Strategy for scaling the empire and reaching new territories.")
+    st.markdown("### SIEGE EMPIRE CLOTHING")
+    st.write("Smooth and seamless expansion of the empire's global reach into the clothing business. [Co-founded by Ethan Morris]")
     st.button("Launch Plan", key="btn3")
 
 # --- FOOTER ---
