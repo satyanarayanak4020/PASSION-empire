@@ -97,4 +97,4 @@ with col3:
 
 # --- FOOTER ---
 st.divider()
-st.markdown("<div style='text-align: center; opacity: 0.5;'>EST. 2026 | BUILT ON PRIDE</div>", unsafe_allow_html=True)
+st.markdown("<div style='text-align: center; opacity: 0.5;'>EST. 2026 | BUILT FOR PASSION</div>", unsafe_allow_html=True)
