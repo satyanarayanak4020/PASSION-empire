@@ -86,13 +86,13 @@ with col1:
 with col2:
     st.image("https://via.placeholder.com/400x300/222222/FFFFFF?text=Core+Systems", use_container_width=True)
     st.markdown("### PASSION X")
-    st.write("The Beautiful Photography And Editing Studio Of The Passion Empire                                                                                         .")
+    st.write("The Beautiful Photography And Editing Studio Of The Passion Empire.")
     st.button("View Source", key="btn2")
 
 with col3:
     st.image("https://via.placeholder.com/400x300/222222/FFFFFF?text=Global+Reach", use_container_width=True)
     st.markdown("### SIEGE EMPIRE CLOTHING")
-    st.write("Smooth and seamless expansion of the empire's global reach into the clothing business.                     [co founded by Ethan morris]                   .")
+    st.write("Smooth and seamless expansion of the empire's global reach into the clothing business. [Co-founded by Ethan Morris]")
     st.button("Launch Plan", key="btn3")
 
 # --- FOOTER ---
