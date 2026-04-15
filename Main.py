@@ -85,8 +85,8 @@ with col1:
 
 with col2:
     st.image("https://via.placeholder.com/400x300/222222/FFFFFF?text=Core+Systems", use_container_width=True)
-    st.markdown("### CODE")
-    st.write("The technical backbone and code driving the passion forward.")
+    st.markdown("### PASSION X")
+    st.write("The Beautiful Photography And Editing Studio Of The Passion Empire .")
     st.button("View Source", key="btn2")
 
 with col3:
@@ -97,4 +97,4 @@ with col3:
 
 # --- FOOTER ---
 st.divider()
-st.markdown("<div style='text-align: center; opacity: 0.5;'>EST. 2026 | BUILT ON PRIDE</div>", unsafe_allow_html=True)
+st.markdown("<div style='text-align: center; opacity: 0.5;'>EST. 2026 | BUILT FOR PASSION</div>", unsafe_allow_html=True)
