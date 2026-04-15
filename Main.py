@@ -79,19 +79,19 @@ col1, col2, col3 = st.columns(3, gap="large")
 
 with col1:
     st.image("https://via.placeholder.com/400x300/222222/FFFFFF?text=Empire+Visuals", use_container_width=True)
-    st.markdown("### DESIGN")
+    st.markdown("### MrBunny AI")
     st.write("Visualizing the empire through high-end design and dark mode elegance.")
     st.button("Enter Vault", key="btn1")
 
 with col2:
     st.image("https://via.placeholder.com/400x300/222222/FFFFFF?text=Core+Systems", use_container_width=True)
-    st.markdown("### CODE")
+    st.markdown("### PASSION X")
     st.write("The technical backbone and code driving the passion forward.")
     st.button("View Source", key="btn2")
 
 with col3:
     st.image("https://via.placeholder.com/400x300/222222/FFFFFF?text=Global+Reach", use_container_width=True)
-    st.markdown("### STRATEGY")
+    st.markdown("### SIEGE EMPIRE")
     st.write("Strategy for scaling the empire and reaching new territories.")
     st.button("Launch Plan", key="btn3")
 
