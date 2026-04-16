@@ -81,7 +81,7 @@ with col1:
     st.image("https://via.placeholder.com/400x300/222222/FFFFFF?text=Empire+Visuals", use_container_width=True)
     st.markdown("### MrBunny AI")
     st.write("Mr Bunny helps us steps into this new age of artificial intelligence by transforming the way we interact with technology thanks to its advanced capabilities.")
-    st.button("Enter Vault", key="btn1")
+    st.button("Access the AI", key="btn1")
 
 with col2:
     st.image("https://via.placeholder.com/400x300/222222/FFFFFF?text=Core+Systems", use_container_width=True)
